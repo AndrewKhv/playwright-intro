@@ -22,9 +22,7 @@ test('get started link', async ({ page }) => {
   const link = page.getByRole('link', { name: 'Get started' });
   await link.click();
 
-  console.log(123)
-
   // Expects page to have a heading with the name of Installation.
-  const heading = page.locator('[text=fwefqwefqwef]').getByText('fwefqwefqwef').getByRole('heading', { name: 'Installation' })
+  const heading = page.getByRole('heading', { name: 'Installation' })
   await expect(heading).toBeVisible();
 });
