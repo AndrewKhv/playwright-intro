@@ -1,0 +1,9 @@
+//*[@id="repos-split-pane-content"]/div/div/div/div[1]/div/div/div[2]/div[2]/div[1]/div[3]/button
+
+div.OverviewContent-module_7QoTfq_Box_9 > button
+
+nav[class="prc-components-UnderlineWrapper-eT-Yj prc-UnderlineNav-UnderlineWrapper-GWONT LocalNavigation-module_gsahca_LocalNavigation
+
+
+#repo-title-component > div > div > span
+[data-testid="repo-visibility-label"]
